@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+
+        <div class="nav">
+            <div class="elem selected" to="page-1" id="nav-1"></div>
+            <div class="elem" to="page-2" id="nav-2"></div>
+            <div class="elem" to="page-3" id="nav-3"></div>
+            <div class="elem" to="page-4" id="nav-4"></div>
+        </div>
+
+        <div class="mobile-nav-button" id="mobile-nav-button">
+            <svg width="3rem" height="3rem" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </div>
+
+        <div class="mobile-nav" id="mobile-nav">
+            <div class="mobile-nav-button" id="mobile-nav-button-close">
+                <svg width="3rem" height="3rem" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </div>
+            <ul>
+                <li class="mobile-nav-elem" to="page-2">О НАС</li>
+                <li class="mobile-nav-elem" to="page-3">РАССЧИТАТЬ СТОИМОСТЬ</li>
+                <li class="mobile-nav-elem" to="page-4">ЗАБРОНИРОВАТЬ</li>
+            </ul>
+        </div>
+
+        <div class="page" id="page-1">
+            <div class="faded-block">
+                <div>
+                    <h1>Собираетесь на море на авто?</h1>
+                    <h2>Возьмите билет на самолёт, а авто мы вам предоставим.</h2>
+                    <div id="next-2-button" class="navButton">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-down-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="page" id="page-2">
+
+            <div class="faded-block">
+
+                <div id="back-1-button" class="navButton">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-up-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                      </svg>
+                </div>
+
+                <div class="text-block">
+                    <h2>Как это работает?</h2>
+                    <h3>
+                        Вы платите за время. Остальное мы берем на себя. Автомобиль просто выполняет свою
+                        основную функцию - возит вас, а сервис и заправка - наша забота.
+                    </h3>
+                    <h2>Заправка тоже?</h2>
+                    <h3>
+                        Да. Вы получаете топливную карту, и заправляетесь по мере необходимости на любой
+                        из заправок партнеров.
+                    </h3>
+                    <h2>Как забронировать?</h2>
+                    <h3>
+                        Вы можете легко забронировать автомобиль, оставив нам <span id="sss">заявку</span>.
+                        С вами свяжутся по почте, чтобы согласовать детали, и когда вы прилетите
+                        на свой курорт - автомобиль уже будет ждать вас в аэропорту.
+                        В последний день аренды вы можете добраться до своего места отправления домой,
+                        либо просто оставить авто в городе. Наши сотрудники сами отгонят его на сервис.
+                    </h3>
+                    <h3>
+                        На следующей странице вы можете <span id="sss1">рассчитать</span> стоимость аренды
+                        и посмотреть доступные автомобили.
+                    </h3>
+                </div>
+
+                <div id="next-3-button" class="navButton">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-down-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="page" id="page-3">
+
+            <div class="faded-block">
+
+                <div id="back-2-button" class="navButton">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-up-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                      </svg>
+                </div>
+
+                <div class="text-block">
+                    <p>Выберете город: 
+                        <select id="city-select">
+                            <option value="1.2">Сочи</option>
+                            <option value="1">Адлер</option>
+                            <option value="1.1">Крым</option>
+                        </select>
+                    </p>
+                    <p>Выберете авто:
+                        <select id="auto-select">
+                            <option value="2500">Volksvagen Polo</option>
+                            <option value="3900">Mini Cooper</option>
+                            <option value="4700">BMW 3-series</option>
+                        </select>
+                    </p>
+                    <p>Количество дней:
+                        <select id="days-select">
+                            <option value="1" coeff="1">1</option>
+                            <option value="2" coeff="0.95">2</option>
+                            <option value="3" coeff="0.90">3</option>
+                            <option value="4" coeff="0.85">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </p>
+                    <p>Цена: <span id="coast">2500</span> руб.</p>
+                </div>
+
+                <div id="next-4-button" class="navButton">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-down-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+                    </svg>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="page" id="page-4">
+
+            <div class="faded-block">
+
+                <div id="back-3-button" class="navButton">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-up-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                      </svg>
+                </div>
+
+                <div class="text-block">
+                    <h1>Укажите свой адрес электронной почты, и мы свяжемся с вами в ближайшее время.</h1>
+                    <p>Город: 
+                        <select id="city-select">
+                            <option value="1.2">Сочи</option>
+                            <option value="1">Адлер</option>
+                            <option value="1.1">Крым</option>
+                        </select>
+                    </p>
+                    <p>Авто:
+                        <select id="auto-select">
+                            <option value="2500">Volksvagen Polo</option>
+                            <option value="3900">Mini Cooper</option>
+                            <option value="4700">BMW 3-series</option>
+                        </select>
+                    </p>
+                    <p>Дата прибытия:
+                        <input id="date-select" type="date">
+                    </p>
+                    <p>Количество дней:
+                        <select id="days-select">
+                            <option value="1" coeff="1">1</option>
+                            <option value="2" coeff="0.95">2</option>
+                            <option value="3" coeff="0.90">3</option>
+                            <option value="4" coeff="0.85">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </p>
+                    <p>E-mail: 
+                        <input type="email" id="email-select" name="email" autocomplete="on">
+                    </p>
+                               
+                </div>
+
+                <div class="navButton" id="submit-button">
+                    <svg width="4rem" height="4rem" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+                    </svg>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="nav.js"></script>
+
+    </body>
+
+
+</html>
